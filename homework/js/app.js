@@ -10,7 +10,7 @@ console.log ("Hi, my name is " + firstName + " " + lastName);
 var expField = "Computer Science";
 var expSelf = 15;
 var expWork = 10;
-console.log ("Between self-study and work, I have " + (expSelf+expWork) +" years experience in the use of computers. (Experimental/ES6+? = ${..+..})");
+console.log (`Between self-study and work, I have ${expSelf+expWork} years experience in ${expField}.`);
 
 //2. The acronym in DRY code stands for 'Don't Repeat Yourself', while conversely, the term WET code stands for
 //	'Write Everything Twice'. This refers to the awreness of clean code and reserving system resources whenever
@@ -40,18 +40,18 @@ console.log(48 == '48');
 //in Reading Code, the expected result was a string of 21 A's. var letters was initially declared as "A", and the loop (i)
 // appended "A" thru the course of the loop
 
-//The difference between a FOR loop and a WHILE loop is the syntax. A WHILE loop is only based on a set condition, and
+//The difference between a FOR loop and a WHILE loop is the syntax. A WHILE loop is based on a set condition, and
 // is best used when the number of times to loop is unknown. A FOR loop is set up with an initialization, a condition,
 // and an increment or decrement.
 
 for (let i=0; i<=999; i++) {
-	console.log(i);
+	//console.log(i);
 }
 
 //and back again
 
 for (let i=999; i>=0; i--) {
-	console.log (i);
+	//console.log (i);
 }
 
 
