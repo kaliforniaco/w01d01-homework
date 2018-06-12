@@ -1,0 +1,12 @@
+body {
+	background-color: blue;
+	color: white;
+}
+
+.terminal {
+	font-family: courier, serif;
+	background-color: black;
+	color: green;
+	text-align: left;
+
+}
